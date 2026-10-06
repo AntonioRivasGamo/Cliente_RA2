@@ -1,6 +1,14 @@
+
+// Comentario del compañer@: Iñaky Fernandez Montero
+/* Comentario del compañer@: Deja un espacio puedes empezar perfectamete en la segunda o tercera linea y el codigo se ve mejor no tan
+encasillado*/
+
+        //constantes
 const reyMovido = false;
 const torreMovida = false;
 const enJaque = false;
+
+        //condicional para permitir enroque
 
 if (!reyMovido && !torreMovida && !enJaque) {
     console.log("El enroque es legal.");
@@ -8,8 +16,11 @@ if (!reyMovido && !torreMovida && !enJaque) {
     console.log("El enroque no está permitido.");
 }
 
+        //varibles
+//  Comentario del compañer@: lo anterior prueba a poner las constantes y variables en la misma parte del codigo
 let pieza = "torre";
 
+        //Switch o transformaciones
 switch (pieza.toLowerCase()) {
     case "torre":
         console.log("Se mueve cualquier cantidad de casillas en línea recta.");
@@ -34,6 +45,10 @@ switch (pieza.toLowerCase()) {
         break;
 }
 
+        //constantes
+// Comentario del compañer@: Yo los pondria al inicio del script
 const filaAlcanzada = 8;
 const piezaResultado = filaAlcanzada == 8 ? '♕' : '♙';
+
+        //Comunicados
 console.log(`Promoción completada a la pieza. Resultado: ${piezaResultado}`)
