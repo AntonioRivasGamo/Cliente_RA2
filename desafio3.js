@@ -30,6 +30,7 @@ for(const jugada of HISTORIAL) {
     else procesarJugada(jugada);
 }
 
+        //funciones
 function procesarComentario(comentario) {
     console.log(`Comentario detectado: ${comentario}`); //informa el comentario
 }
