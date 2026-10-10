@@ -9,7 +9,7 @@ const torreMovida = false;
 const enJaque = false;
 
         //condicional para permitir enroque
-
+//Comprueba si el rey cumple los requisitos para enrocarse.
 if (!reyMovido && !torreMovida && !enJaque) {
     console.log("El enroque es legal.");
 } else {
@@ -21,6 +21,7 @@ if (!reyMovido && !torreMovida && !enJaque) {
 let pieza = "torre";
 
         //Switch o transformaciones
+//Se comprueba que tipo de pieza es y que movimientos puede hacer.
 switch (pieza.toLowerCase()) {
     case "torre":
         console.log("Se mueve cualquier cantidad de casillas en línea recta.");

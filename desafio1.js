@@ -34,6 +34,7 @@ let esTurnoBlancas = jugada % 2 !== 0;
 let turnoActual = esTurnoBlancas ? "Blancas" : "Negras";
 
         //comunicados
+//Los comunicados ofrecen informacion sobre la aplicacion
 console.log(`Número de jugada actual: ${jugada} (Tipo de dato:${typeof jugada})`);
 console.log(`Turno correspondiente: ${turnoActual} (Tipo de dato:${typeof turnoActual})`);
 console.log(`Puntuación acumulada Blancas: ${puntosBlancas} pts (Tipo de dato:${typeof puntosBlancas})`);

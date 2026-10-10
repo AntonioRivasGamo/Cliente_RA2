@@ -31,6 +31,7 @@ for(const jugada of HISTORIAL) {
 }
 
         //funciones
+//Ademas separar el codigo en funciones facilita el mantenimiento del codigo
 function procesarComentario(comentario) {
     console.log(`Comentario detectado: ${comentario}`); //informa el comentario
 }
